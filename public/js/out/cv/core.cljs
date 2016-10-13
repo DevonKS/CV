@@ -4,6 +4,11 @@
 ;; -------------------------
 ;; Views
 
+(defn cover-pic []
+  [:div.uk-cover.uk-height-viewport
+   [:img.uk-cover-object {:src "https://newevolutiondesigns.com/images/freebies/cool-facebook-cover-1.jpg"}]])
+
+
 (defn nav-bar []
   [:nav.uk-navbar
    [:ul.uk-navbar-nav.uk-float-right
